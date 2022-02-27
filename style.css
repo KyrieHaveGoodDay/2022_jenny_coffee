@@ -23,6 +23,12 @@
     /* 不要重複 */
     background-repeat: no-repeat;
 }
+@media screen and (max-width: 414px) {
+    /*  要做的事情  */
+    .banner {
+        background-image: url(./img/mbBg.jpg);
+    }
+}
 
 nav {
     padding: 15px 0;
